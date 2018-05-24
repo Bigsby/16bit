@@ -14,7 +14,7 @@ Experiments in 16 bit assembly
 
 ### QEmu
 ```
-qemu-system-i386 -drive format=raw,file=«binaryFileName»[bin]
+qemu-system-i386 [-curses] -drive format=raw,file=«binaryFileName»[.bin]
 ```
 
 ### Nasm
@@ -25,5 +25,5 @@ nasm «codeFileName»[.asm] -f bin -o «outputFileName»[.bin]
 ### GAS and GCC
 ```
 as «codeFileName»[.S] -o «objectFileName»[.o]
-ld [–Ttext] 0x7c00 --oformat=binary «objectFileName»[.o] –o «binaryFileName»[bin]
+ld [-Ttext 0x7c00] --oformat=binary «objectFileName»[.o] -o «binaryFileName»[.bin]
 ```
