@@ -33,9 +33,13 @@ call wait_func
 ret
 
 wait_func:
+    pusha
+    mov cx, 0x1 
+    mov dx, 0x800
     add al, 0x6
     mov ah, 0x86
     int 0x15
+    popa
     ret
 
 print_key:
