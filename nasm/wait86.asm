@@ -1,5 +1,5 @@
-mov ax, 0xffff
-mov dx, ax
+mov cx, 0x1 
+mov dx, 0x800
 mov al, 0x40
 
 wait_loop:

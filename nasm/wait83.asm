@@ -1,17 +1,16 @@
-mov ax, 0xffff
-mov dx, ax
-mov al, 0x40
+mov cx, 0x1 
+mov dx, 0x800
 
 wait_loop:
-    add al, 0x1
-    mov ah, 0x86
+    mov al, 0
+    mov ah, 0x83
     int 0x15
     call print_key
     jmp wait_loop
 
 
 print_key:
-    mov ah, 0x0e
+    mov ax, 0x0e41
     int 0x10
     ret
 
