@@ -11,5 +11,6 @@
 
 # Other
 - [BIOS doc](http://webpages.charter.net/danrollins/techhelp/0002.HTM)
+- [BIOS Specifications](http://cs.dartmouth.edu/~bx/blog/resources/bios.html)
 - [x86-64](https://en.wikipedia.org/wiki/X86-64)
 
