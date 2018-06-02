@@ -19,3 +19,13 @@
 - [Building an Operating System for the Raspberry Pi](https://jsandler18.github.io/)
 - [Learning operating system development using Linux kernel and Raspberry Pi](https://github.com/s-matyukevich/raspberry-pi-os)
 - [Baking Pi – Operating Systems Development](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/)
+
+# GNU - Linker
+- [The GNU Linker PDF](https://www.eecs.umich.edu/courses/eecs373/readings/Linker.pdf)
+
+LiveUsbPendrivePersistent
+https://wiki.ubuntu.com/LiveUsbPendrivePersistent
+
+https://help.ubuntu.com/community/Installation/FromUSBStick
+
+https://docs.kali.org/downloading/kali-linux-live-usb-persistence
